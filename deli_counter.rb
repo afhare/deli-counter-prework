@@ -6,10 +6,10 @@ def line (array)
   end
   
   if (array.length >0)
-    counter = 0 
+    counter = 1 
     string = "The line is currently: "
     array.each do
-      string += "#{counter+1}. #{array[counter]}"
+      string += "#{counter}. #{array[counter-1]}"
       counter +=1
   end
   puts string
