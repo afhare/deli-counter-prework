@@ -9,7 +9,7 @@ def line (array)
     counter = 1 
     string = "The line is currently: "
     array.each do
-      string += "#{counter}. #{array[counter-1]} "
+      string += " #{counter}. #{array[counter-1]}"
       counter +=1
   end
   puts string
