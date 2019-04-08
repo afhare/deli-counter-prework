@@ -10,6 +10,7 @@ def line (array)
     string = "The line is currently: "
     array.each do
       string += "#{counter+1}. #{array[counter]}"
+      counter +=1
   end
   puts string
   end
